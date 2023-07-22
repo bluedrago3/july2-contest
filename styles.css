@@ -1,6 +1,7 @@
 * {
   /* margin-top: 10px; */
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* margin-left: 15px; */
 
 }
 .flex-container {
@@ -73,7 +74,7 @@ margin-left: 10px;;
     width: 424px;;
     font-size: 50px;
     margin: 0;
-    lin
+    
 
     
 
@@ -107,7 +108,7 @@ input::placeholder{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     position: absolute;
-    right: 0;;
+    right: 0;
     color: white;
     font-weight: 900;
 
@@ -130,4 +131,48 @@ input::placeholder{
     color: grey;
     padding-top: 10px;
     word-spacing: 50px;
+}
+.section-2{
+    margin-top: 30px;
+    display: flex;
+    /* width: 1386px; */
+    height: 512px;
+    border-radius: 30px;
+    justify-content: space-between;
+    background-color: #FCFCF3;
+    border: 1px solid grey;
+    /* align-items: center; */
+    /* position: relative; */
+
+    
+
+
+}
+.robot_hand{
+    border-radius: 15px;
+    margin-top: 20px;
+   margin-left:20px;
+    
+}
+.section-2-right{
+    margin-top: 0;
+    margin-left: 20px;;
+
+
+
+}
+h3{
+    font-size: 43px;;
+    color: #404040;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+.writer_name{
+    color: #6F6E6E;
+    display: inline-block
+}
+.date{
+    text-align: right;
+    width: 450px;
+    font-weight: 500;
 }
