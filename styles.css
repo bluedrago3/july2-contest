@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    background-image: url(images/Rectangle\ 31.jpg);
+    /* background-repeat: no-repeat; */
+
+}
+
+.header{
+
+    
+    height: 600px;
+    margin-left: 30px;;
+    display: flex;
+    border-radius:20px;
+    align-items: center;
+}
+
+.company-logo img{
+    width: 230px;
+    height: 66px;
+    margin: 10px;;
+}
+
+
+.company-logo{
+    display: flex;
+
+}
