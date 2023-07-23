@@ -269,11 +269,14 @@ h3{
 }
 .card_content{
 
-    color: #464343;    ;
+    color: #464343;    
+    font-weight: 200;
     
 }
 .seefull{
-    color:#404040
+    color:#404040;
+    font-weight: 200;
+
 }
 .section-4{
     height: 700px;
