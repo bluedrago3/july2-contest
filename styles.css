@@ -13,16 +13,37 @@ align-items: center;
 margin-left: 10px;;
 
 }
+.archieves>p{
+    font-weight: 200;
+    font-size: 22px;
+}
 .menu {
   display: flex;
   align-items: center;
   flex:2;
   width: 200px;
   padding: 20px;
-  justify-content: flex-end;
+  justify-content: end;
+}
+.archieves{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.archieves>img{
+    width: 17px;
+    height: 20px;
+    padding: 10px;
+
+    
+}
   
 
-  
+.menu>p{
+   padding: 10px;
+   font-size: 22px;
+   font-weight: 300;
+
 }
 .text-1{
     margin-right: 10px;
@@ -37,24 +58,29 @@ margin-left: 10px;;
   height: 66px;
 }
 .quote{
-    background-color:  #184655;
-    width: 223px;
-    height: 50px;
-    text-align: center;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
-    margin-top: 5px;
-    /* display: fle; */
-    font-size: 25px;
-    text-align: center;
-}
-.quote p{
-    font-size: 20px;
+   width: 200px;
+   height: 50px;
    text-align: center;
-    /* opacity: 1; */
+   display: inline-block;
+   border-radius: 20px;
+   background-color: #184655;
+   color: white;
+   font-size: 20px;
+   position: relative;
+
 }
+.quote>p{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    /* margin-inline: ; */
+    width: inherit;
+    /* height: inherit;
+     */
+     margin-top: 13px;
+}
+
 
 
 .hero
