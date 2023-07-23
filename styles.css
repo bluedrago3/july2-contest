@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 * {
   /* margin-top: 10px; */
   /* overflow: hidden; */
+  /* flex-wrap: wrap; */
+  font-family: 'Roboto', sans-serif;
   /* margin-left: 15px; */
 
 }
@@ -188,9 +191,14 @@ h3{
 
 
 .card{
-    width:430px;
-    height: 500px;
+    width:450px;
+    height: 550px;
     position: relative;
+    border-radius: 10px;
+   word-spacing: 4px;
+   box-shadow: -1px 2px 14px 3px rgba(0,0,0,0.36);
+-webkit-box-shadow: -1px 2px 14px 3px rgba(0,0,0,0.36);
+-moz-box-shadow: -1px 2px 14px 3px rgba(0,0,0,0.36);
     /* display: block; */
 }
 
@@ -199,23 +207,28 @@ h3{
    top:300px;
    bottom: 0;
    left: 0;
+   margin-inline: 10px;
+   margin-top: 5px;
+   
 }
 .card_image img{
     display: block;
     position: absolute;
-    height: 300px;;
+    height: 300px;
+    width: 450px;
     border-radius: 10px;;
-    background-size: contain;
+    background-size: cover;
 
     
 }
+
 
 
 .img_card{
 
     margin-bottom: 20px;;
     height: 330px;
-    width: 420px;;
+    width: 430px;;
     background-size: contain;
 }
 
@@ -223,11 +236,41 @@ h3{
     display: inline-block;
     width: 65%;
     text-align: right;
+    /* color: 6F6E6E; */
+    margin-bottom: 0;
+    color: #6F6E6ED6;
+
 
 }
 .writer_name_card{
     display: inline-block;
+    color: #6F6E6ED6;
+    text-justify: inter-word;
+    margin-top:0;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .seefull{
     text-align: right;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.card_head
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #4A4848;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+.card_content{
+
+    color: #464343;    ;
+    
+}
+.seefull{
+    color:#404040
 }
