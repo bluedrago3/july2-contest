@@ -10,7 +10,9 @@
 .flex-container {
 display: flex;
 align-items: center;
-margin-left: 10px;;
+margin-left: 10px;
+position: sticky;
+top:0px;
 
 }
 .archieves>p{
