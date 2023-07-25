@@ -13,6 +13,8 @@ align-items: center;
 margin-left: 10px;
 position: sticky;
 top:0px;
+background-color: white;
+z-index: 1;
 
 }
 .archieves>p{
